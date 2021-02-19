@@ -5,7 +5,6 @@ public class SpeedConverter {
         if (kilometersPerHour < 0) {
             return -1;
         }
-
         return Math.round(kilometersPerHour / 1.609);
     }
 
@@ -16,7 +15,7 @@ public class SpeedConverter {
         } else {
             long milesPerHour = toMilesPerHour(kilometersPerHour);
             System.out.println(kilometersPerHour +
-                    " km/h " + milesPerHour + " mi/h");
+                    " km/h is: " + milesPerHour + " mi/h");
         }
     }
 }
