@@ -1,7 +1,7 @@
+package exercises;
+
 public class SpeedConverter {
-
     public static long toMilesPerHour(double kilometersPerHour) {
-
         if (kilometersPerHour < 0) {
             return -1;
         }
@@ -9,7 +9,6 @@ public class SpeedConverter {
     }
 
     public static void printConversion(double kilometersPerHour) {
-
         if (kilometersPerHour < 0) {
             System.out.println("Invalid value");
         } else {

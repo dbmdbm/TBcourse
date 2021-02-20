@@ -1,3 +1,5 @@
+package exercises;
+
 public class MegaBytesConverterMain {
 
     public static void main(String[] args) {

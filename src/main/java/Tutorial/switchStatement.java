@@ -1,3 +1,5 @@
+package Tutorial;
+
 public class switchStatement {
 
     public static void main(String[] args) {

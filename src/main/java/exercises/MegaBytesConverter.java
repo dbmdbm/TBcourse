@@ -1,7 +1,7 @@
+package exercises;
+
 public class MegaBytesConverter {
-
     public static void printMegaBytesAndKiloBytes(int kiloBytes) {
-
         if (kiloBytes < 0) {
             System.out.println("Invalid value");
         }
@@ -11,8 +11,7 @@ public class MegaBytesConverter {
 
         megaBytes = kiloBytes / conversion;
         remaining = kiloBytes % conversion;
-
-        System.out.println(kiloBytes +" KB = " + megaBytes + " MB and " + remaining + " KB.");
+        System.out.println(kiloBytes + " KB = " + megaBytes + " MB and " + remaining + " KB.");
 
     }
 }
